@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* 헤더의 스크롤됐을때  js */
-.header.active{
+.header.active {
   top: -61px;
 }
 /* 상단 */
@@ -185,7 +185,8 @@
   background-color: #ff9933;
   border-radius: 50%;
 }
-.all-bt{
+
+.all-bt {
   position: relative;
   display: block;
   font-size: 16px;
@@ -197,7 +198,7 @@
   cursor: pointer;
 }
 
-.all-bt i{
+.all-bt i {
   display: inline-block;
   margin-right: 12px;
 }
@@ -209,7 +210,6 @@
   display: inline-block;
   height: 43px;
   width: 100px;
-  /* background-color: aquamarine; */
 }
 .all-menu {
   position: absolute;
@@ -397,12 +397,23 @@
   text-decoration: underline;
 }
 /* 참여 더보기 버튼 */
+.join-bt {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  line-height: 19px;
+}
 
-.join-bt:hover{
+.join-bt:hover {
   color: #76bd42;
 }
 
-.join-bt-icon{
+.join-bt-icon {
   position: relative;
   display: inline-block;
   background: url("../images/icoGnbArr2.png") no-repeat;
@@ -413,56 +424,56 @@
   margin-left: 2px;
 }
 
-.join-bt.active{
+.join-bt.active {
   color: #76bd42;
 }
 
-.join-bt.active .join-bt-icon{
+.join-bt.active .join-bt-icon {
   background-position: 0px -8px;
 }
 .join-list,
-.more-menu-list{
-    position: absolute;
-    background-color: #fff;
-    padding: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 42px;
-    border: 1px solid #ddd;
-    box-shadow: 0 3px 6px 0 rgba(0 0 0 / 16%);
-    display: none;
+.more-menu-list {
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 42px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 6px 0 rgba(0 0 0 / 16%);
+  display: none;
 }
 
 .join-list > li,
-.more-menu-list > li{
-    position: relative;
-    display: block;
-    padding: 7px 0;
-    text-align: left;
+.more-menu-list > li {
+  position: relative;
+  display: block;
+  padding: 7px 0;
+  text-align: left;
 }
 
 .join-list > li > a,
-.more-menu-list > li > a{
-    position: relative;
-    display: inline-block;
-    font-size: 15px;
-    color: #666;
-    white-space: nowrap;
-    line-height: 19px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
+.more-menu-list > li > a {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  color: #666;
+  white-space: nowrap;
+  line-height: 19px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 .join-list > li > a:hover,
-.more-menu-list > li > a:hover{
+.more-menu-list > li > a:hover {
   font-weight: 700;
-  color:#000;
-  border-bottom:  2px solid #000;
+  color: #000;
+  border-bottom: 2px solid #000;
 }
-.more-menu{
+.more-menu {
   position: relative;
   display: inline-block;
 }
 
-.more-menu-bt{
+.more-menu-bt {
   position: relative;
   display: inline-block;
   font-size: 13px;
@@ -475,7 +486,7 @@
   /* background-color: #000; */
 }
 
-.more-menu-icon{
+.more-menu-icon {
   display: inline-block;
   width: 10px;
   height: 6px;
@@ -484,12 +495,13 @@
   margin-left: 3px;
   vertical-align: 2px;
 }
-/* ========================더보기 active */
-.more-menu-bt.active > span{
+/* ======================더보기 active */
+
+.more-menu-bt.active > span {
   visibility: hidden;
 }
 
-.more-menu-bt::after{
+.more-menu-bt::after {
   content: "접기";
   position: absolute;
   display: inline-block;
@@ -499,28 +511,29 @@
   display: none;
 }
 
-.more-menu-bt.active::after{
+.more-menu-bt.active::after {
   display: block;
   top: 0;
   left: 9px;
 }
-.more-menu-bt.active .more-menu-icon{
+.more-menu-bt.active .more-menu-icon {
   background-position: 0 -6px;
 }
-/* ========================더보기 active */
-.header-main-right{
+/* ======================더보기 active */
+
+.header-main-right {
   position: relative;
   display: block;
   float: right;
 }
 
-.search-form{
+.search-form {
   position: relative;
   display: block;
   float: left;
 }
 
-.search-txt{
+.search-txt {
   position: relative;
   display: block;
   width: 320px;
@@ -533,13 +546,13 @@
   line-height: 40px;
   font-size: 13px;
 }
-.search-txt:focus{
+.search-txt:focus {
   background-color: #fff;
   border: 1px solid #76bd42;
   color: #000;
 }
 
-.search-bt{
+.search-bt {
   position: absolute;
   right: 20px;
   top: 50%;
@@ -553,7 +566,7 @@
   border: 0;
 }
 
-.bucket{
+.bucket {
   position: relative;
   display: block;
   width: 30px;
@@ -564,7 +577,7 @@
   margin-left: 25px;
 }
 
-.bucket-count{
+.bucket-count {
   position: absolute;
   right: -4px;
   top: -1px;
